@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.flag-container {
+  display: flex;
+  gap: 20px;
+}
+
+.flag {
+  width: 100px;
+  height: 70px;
+  border: 2px solid #333;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.drop-container {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
